@@ -18,7 +18,6 @@ class CoursesPage extends React.Component {
     return(
       <div>
         <h1>Courses</h1>
-        {this.props.courses.map(this.courseRow)}
         <CourseList courses={courses}/>
       </div>
     );
